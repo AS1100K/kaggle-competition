@@ -22,6 +22,11 @@ The repository is organized by competition name, with each competition having it
    python3 -m venv .venv
    ```
 
+3. Starting Virtual Envirnoment:
+   ```bash
+   source .venv/bin/activate
+   ```
+
 3. Installing required packages:
     ```bash
     pip3 install -r requirements.txt
