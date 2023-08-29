@@ -1,5 +1,8 @@
 # Kaggle-Competition Repository
 
+> **NOTE:**
+This Repository only contains source code for competition hosted by Kaggle for *Knowledge* and *Swag*.
+
 Welcome to the Kaggle-Competition repository! This repository is dedicated to open-source solutions, code, and resources for various Kaggle competitions. The goal is to provide a centralized location for collaboration, learning, and sharing insights related to Kaggle challenges.
 
 ## About Kaggle Competitions

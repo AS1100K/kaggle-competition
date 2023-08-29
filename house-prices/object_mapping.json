@@ -1,0 +1,382 @@
+{
+  "MSZoning": {
+    "A": 0,
+    "C": 1,
+    "FV": 2,
+    "I": 3,
+    "RH": 4,
+    "RL": 5,
+    "RP": 6,
+    "RM": 7,
+    "C (all)": 8
+  },
+  "Street": {
+    "NA": 0,
+    "Grvl": 1,
+    "Pave": 2
+  },
+  "LotShape": {
+    "Reg": 0,
+    "IR1": 1,
+    "IR2": 2,
+    "IR3": 3
+  },
+  "LandContour": {
+    "Lvl": 0,
+    "Bnk": 0,
+    "HLS": 2,
+    "Low": 3
+  },
+  "Utilities": {
+    "AllPub": 0,
+    "NoSewr": 1,
+    "NoSeWa": 2,
+    "ELO": 3
+  },
+  "LotConfig": {
+    "Inside": 0,
+    "Corner": 1,
+    "CulDSac": 2,
+    "FR2": 3,
+    "FR3": 4
+  },
+  "LandSlope": {
+    "Gtl": 0,
+    "Mod": 1,
+    "Sev": 2
+  },
+  "Neighborhood": {
+    "Blmngtn": 0,
+    "Blueste": 1,
+    "BrDale": 2,
+    "BrkSide": 3,
+    "ClearCr": 4,
+    "CollgCr": 5,
+    "Crawfor": 6,
+    "Edwards": 7,
+    "Gilbert": 8,
+    "IDOTRR": 9,
+    "MeadowV": 10,
+    "Mitchel": 11,
+    "NAmes": 12,
+    "NoRidge": 13,
+    "NPkVill": 14,
+    "NridgHt": 15,
+    "NWAmes": 16,
+    "OldTown": 17,
+    "SWISU": 18,
+    "Sawyer": 19,
+    "SawyerW": 20,
+    "Somerst": 21,
+    "StoneBr": 22,
+    "Timber": 23,
+    "Veenker": 24
+  },
+  "Condition1": {
+    "Artery": 0,
+    "Feedr": 1,
+    "Norm": 2,
+    "RRNn": 3,
+    "RRAn": 4,
+    "PosA": 5,
+    "PosN": 6,
+    "RRNe": 7,
+    "RRAe": 8
+  },
+  "Condition2": {
+    "Artery": 0,
+    "Feedr": 1,
+    "Norm": 2,
+    "RRNn": 3,
+    "RRAn": 4,
+    "PosA": 5,
+    "PosN": 6,
+    "RRNe": 7,
+    "RRAe": 8
+  },
+  "BldgType": {
+    "1Fam": 0,
+    "2FmCon": 1,
+    "2fmCon": 1,
+    "Duplx": 2,
+    "Duplex": 2,
+    "TwnhsE": 3,
+    "TwnhsI": 4,
+    "Twnhs": 4
+  },
+  "HouseStyle": {
+    "1Story": 0,
+    "1.5Fin": 1,
+    "1.5Unf": 2,
+    "2Story": 3,
+    "2.5Fin": 4,
+    "2.5Unf": 5,
+    "SFoyer": 6,
+    "SLvl": 7
+  },
+  "RoofStyle": {
+    "Flat": 0,
+    "Gable": 1,
+    "Gambrel": 2,
+    "Hip": 3,
+    "Mansard": 4,
+    "Shed": 5
+  },
+  "RoofMatl": {
+    "ClyTile": 0,
+    "CompShg": 1,
+    "Membran": 2,
+    "Metal": 3,
+    "Roll": 4,
+    "Tar&Grv": 5,
+    "WdShake": 6,
+    "WdShngl": 7
+  },
+  "Exterior1st": {
+    "AsbShng": 0,
+    "AsphShn": 1,
+    "BrkComm": 2,
+    "BrkFace": 3,
+    "CBlock": 4,
+    "CemntBd": 5,
+    "HdBoard": 6,
+    "ImStucc": 7,
+    "MetalSd": 8,
+    "Other": 9,
+    "Plywood": 10,
+    "PreCase": 11,
+    "Stone": 12,
+    "Stucco": 13,
+    "VinylSd": 14,
+    "Wd Sdng": 15,
+    "WdShing": 16
+  },
+  "Exterior2nd": {
+    "AsbShng": 0,
+    "AsphShn": 1,
+    "BrkComm": 2,
+    "Brk Cmn": 2,
+    "BrkFace": 3,
+    "CBlock": 4,
+    "CemntBd": 5,
+    "CmentBd": 5,
+    "HdBoard": 6,
+    "ImStucc": 7,
+    "MetalSd": 8,
+    "Other": 9,
+    "Plywood": 10,
+    "PreCase": 11,
+    "Stone": 12,
+    "Stucco": 13,
+    "VinylSd": 14,
+    "Wd Sdng": 15,
+    "Wd Shng": 15,
+    "WdShing": 16
+  },
+  "MasVnrType": {
+    "NA": 0,
+    "None": 0,
+    "BrkCmn": 1,
+    "BrkFace": 2,
+    "CBlock": 3,
+    "Stone": 4
+  },
+  "ExterQual": {
+    "Ex": 0,
+    "Gd": 1,
+    "TA": 2,
+    "Fa": 3,
+    "Po": 4
+  },
+  "ExterCond": {
+    "Ex": 0,
+    "Gd": 1,
+    "TA": 2,
+    "Fa": 3,
+    "Po": 4
+  },
+  "Foundation": {
+    "BrkTil": 0,
+    "CBlock": 1,
+    "PConc": 2,
+    "Slab": 3,
+    "Stone": 4,
+    "Wood": 5
+  },
+  "BsmtQual": {
+    "NA": 0,
+    "Ex": 1,
+    "Gd": 2,
+    "TA": 3,
+    "Fa": 4,
+    "Po": 5
+  },
+  "BsmtCond": {
+    "NA": 0,
+    "Ex": 1,
+    "Gd": 2,
+    "TA": 3,
+    "Fa": 4,
+    "Po": 5
+  },
+  "BsmtExposure": {
+    "NA": 0,
+    "No": 0,
+    "Gd": 1,
+    "Av": 2,
+    "Mn": 3
+  },
+  "BsmtFinType1": {
+    "NA": 0,
+    "GLQ": 1,
+    "ALQ": 2,
+    "BLQ": 3,
+    "Rec": 4,
+    "LwQ": 5,
+    "Unf": 6
+  },
+  "BsmtFinType2": {
+    "NA": 0,
+    "GLQ": 1,
+    "ALQ": 2,
+    "BLQ": 3,
+    "Rec": 4,
+    "LwQ": 5,
+    "Unf": 6
+  },
+  "Heating": {
+    "Floor": 0,
+    "GasA": 1,
+    "GasW": 2,
+    "Grav": 3,
+    "OthW": 4,
+    "Wall": 5
+  },
+  "HeatingQC": {
+    "Ex": 0,
+    "Gd": 1,
+    "TA": 2,
+    "Fa": 3,
+    "Po": 4
+  },
+  "CentralAir": {
+    "N": 0,
+    "Y": 1
+  },
+  "Electrical": {
+    "NA": 0,
+    "SBrkr": 1,
+    "FuseA": 2,
+    "FuseF": 3,
+    "FuseP": 4,
+    "Mix": 5
+  },
+  "KitchenQual": {
+    "Ex": 0,
+    "Gd": 1,
+    "TA": 2,
+    "Fa": 3,
+    "Po": 4
+  },
+  "Functional": {
+    "Typ": 0,
+    "Min1": 1,
+    "Min2": 2,
+    "Mod": 3,
+    "Maj1": 4,
+    "Maj2": 5,
+    "Sev": 6,
+    "Sal": 8
+  },
+  "FireplaceQu": {
+    "NA": 0,
+    "Ex": 1,
+    "Gd": 2,
+    "TA": 3,
+    "Fa": 4,
+    "Po": 5
+  },
+  "GarageType": {
+    "2Types": 1,
+    "Attchd": 2,
+    "Basment": 3,
+    "BuiltIn": 4,
+    "CarPort": 5,
+    "Detchd": 6
+  },
+  "GarageFinish": {
+    "NA": 0,
+    "Fin": 1,
+    "RFn": 2,
+    "Unf": 3
+  },
+  "GarageQual": {
+    "NA": 0,
+    "Ex": 1,
+    "Gd": 2,
+    "TA": 3,
+    "Fa": 4,
+    "Po": 5
+  },
+  "GarageCond": {
+    "NA": 0,
+    "Ex": 1,
+    "Gd": 2,
+    "TA": 3,
+    "Fa": 4,
+    "Po": 5
+  },
+  "PavedDrive": {
+    "N": 0,
+    "P": 1,
+    "Y": 2
+  },
+  "PoolQC": {
+    "NA": 0,
+    "Ex": 1,
+    "Gd": 2,
+    "TA": 3,
+    "Fa": 4,
+    "Po": 5
+  },
+  "Fence": {
+    "NA": 0,
+    "GdPrv": 1,
+    "MnPrv": 2,
+    "GdWo": 3,
+    "MnWw": 4
+  },
+  "MiscFeature": {
+    "NA": 0,
+    "Elev": 1,
+    "Gar2": 2,
+    "Othr": 3,
+    "Shed": 4,
+    "TenC": 5
+  },
+  "SaleType": {
+    "WD": 0,
+    "CWD": 1,
+    "VWD": 2,
+    "New": 3,
+    "COD": 4,
+    "Con": 5,
+    "ConLw": 6,
+    "ConLI": 7,
+    "ConLD": 8,
+    "Oth": 9
+  },
+  "SaleCondition": {
+    "Normal": 0,
+    "Abnorml": 1,
+    "AdjLand": 2,
+    "Alloca": 3,
+    "Family": 4,
+    "Partial": 5
+  },
+  "Alley": {
+    "NA": 0,
+    "Grvl": 1,
+    "Pave": 2
+  }
+}
